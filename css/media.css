@@ -1,0 +1,171 @@
+@media (max-width: 1200px) {
+	.header_title {
+    	margin-bottom: 23px;
+    	font-size: 36px;
+	}
+
+	.p__text {
+    	font-size: 16px;
+	}
+
+	.h2__title {
+    	font-size: 32px;
+	}
+
+	.our_story_img {
+    	padding: 50px 0;
+	}
+
+	.our_story_desc {
+    	margin-top: 28px;
+  	}
+
+  	.singatures_desc {
+  		margin-top: 28px;
+  	}
+
+	.singatures_title:after {
+    	width: 127px;
+	}
+
+	.menu_title {
+    	padding-top: 80px;
+	}
+
+	.menu_conteiner {
+   		margin-top: 50px;
+  	}
+
+  	.flex_direction_column {
+  		flex-direction: column;
+  	}
+	
+	.menu_conteiner_left {
+		margin-bottom: 0;
+	}
+
+  	.menu_conteiner_right {
+  		margin-top: 0;
+  	}
+
+  .menu_conteiner {
+    	max-width: 550px;
+    	width: 100%;
+    	padding-left: 0;
+    	padding-right: 0;
+	}
+
+	.bloсk1, .bloсk2, .bloсk3, .bloсk4 {
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 900px) {
+	.nav_item {
+    	font-size: 14px;
+   	}
+
+	.header_title {
+    	margin-bottom: 18px;
+    	font-size: 28px;
+	}
+
+	.h2__title {
+    	font-size: 28px;
+	}
+
+	.p__text {
+   		font-size: 14px;
+    	line-height: 25px;
+	}
+}
+
+@media (max-width: 880px) {
+	.copyrights{
+		display: none;
+	}
+}
+@media (max-width: 780px) {
+	.nav_wrapper {
+		display: none;
+	}
+
+	.top__menu_mobile{		
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.our_story_img {
+   		display: none;
+   	}
+
+	.story {
+    	margin: auto;
+    	padding: 90px 0;
+  	}
+
+}
+
+@media (max-width: 730px) {
+	.about_us_container {
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.bloсk_title1 {
+		margin-bottom: 25px;
+	}
+	.bloсk_title {
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+	.bloсk1 {
+		width: 100%;
+		max-width: 350px;
+	}
+	.bloсk_item {
+		margin-bottom: 5px;
+	}
+}
+
+@media (max-width: 550px) {
+	.about_us_container {
+		justify-content: flex-start
+	}
+	.about_us_item {
+		width: 40%;
+	}
+
+	.bloсk5 {
+		width: 59%
+	}
+
+}
+@media (max-width: 550px) {
+	.mobile__menu li a {
+		font-size: 14px;
+	}
+
+	.menu_position_title {
+		padding-right: 20px;
+	}
+
+	.menu_position_title, .menu_position_desc {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 400px) {
+	.bloсk5 .bloсk_item {
+		padding-left: 30px;
+	}
+	.footer_nav_item {
+		width: 40%;
+	}
+	.footer_nav_item:nth-child(3) {
+		margin-top: 30px;
+	}
+	.footer_nav_item:nth-child(4) {
+		margin-top: 30px;
+	}
+}
