@@ -1,6 +1,69 @@
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Aguafina Script', cursive;*/
 
+.preloader {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #06142d;
+	z-index: 10;
+	transition: 1s;
+}
+
+.preloader__content {
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+
+.preloader__first,
+.preloader__second,
+.preloader__third {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	animation: 1s linear infinite;
+}
+
+.preloader__first {
+	border-bottom: 3px solid #ff7473;
+	animation-name: first;
+}
+
+.preloader__second {
+	border-right: 3px solid #ffc952;
+	animation-name: second;
+}
+
+.preloader__third {
+	border-top: 3px solid #47b8e0;
+	animation-name: third;
+}
+
+@keyframes first {
+	0% {transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);}
+	100% {transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);}
+}
+
+@keyframes second {
+	0% {transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);}
+	100% {transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);}
+}
+
+@keyframes third {
+	0% {transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);}
+	100% {transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);}
+}
+
 .header {
 	position: relative;
   	background: #020915 url(../img/bg_banner.jpg);
@@ -132,7 +195,7 @@ a {
 
 .mobile__menu {
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	width: 100%;
@@ -161,8 +224,6 @@ a {
 	background: #020915;
 	z-index: 10;
 	transition: all 0.3s;
-
-
 }
 
 .disc {
@@ -177,8 +238,6 @@ a {
 
 }
 
-
-
 h1, h2, p {
 	margin: 0;
 }
@@ -188,16 +247,13 @@ h1, h2, p {
 	font-size: 72px;
 	font-weight: 600;
 	text-transform: uppercase;
-
 }
 
 .header_desc {
-
 }
 
 .our_story {
 	background-color: #962323;
-
 }
 
 .conteiner {
@@ -231,7 +287,6 @@ h1, h2, p {
 	padding: 0 20px;
 }
 .our_story_title {
-
 }
 
 .our_story_title:after {
@@ -266,11 +321,6 @@ h1, h2, p {
 	max-width: 510px;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-
-.singatures_title {
-
 }
 
 .singatures_title:after {
