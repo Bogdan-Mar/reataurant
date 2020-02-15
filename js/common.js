@@ -1,17 +1,5 @@
 $(document).ready(function () {
 	$(".preloader, .preloader__content").fadeOut();
-	// 	function preloader() {
-	// 	setInterval(() => {
-	// 		let p = $(".preloader");
-	// 		p.css("opacity", 0);
-
-	// 		setInterval(
-	// 			() => p.remove(),
-	// 			parseInt(p.css('1s')) * 1000
-	// 		);
-	// 	}, 1000)
-	// }
-	// setInterval(() =>preloader(), 5000);
 
 	var yourNavigation = $(".nav_top");
 	stickyDiv = "sticky";
